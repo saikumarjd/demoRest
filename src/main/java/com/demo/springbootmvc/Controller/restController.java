@@ -19,6 +19,8 @@ public class restController {
 	
 	@Autowired
 	private JpaRepo repo;
+	
+	//To get the data
 	@GetMapping("/")
 	public String getData() {
 		return "welcome";
