@@ -28,6 +28,7 @@ public class restController {
 	public List<DemoUser> getUsers(){
 		return repo.findAll();
 	}
+	//creating a new user
 	@PostMapping("/saveuser")
 	public String postUser(@RequestBody DemoUser user) {
 		
