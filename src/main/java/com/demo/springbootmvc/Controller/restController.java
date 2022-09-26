@@ -26,7 +26,7 @@ public class restController {
 		return "welcome";
 	}
 	
-	@GetMapping(path = "/users", produces = "application/xml")
+	@GetMapping(path = "/users", produces = "application/json")
 	public List<DemoUser> getUsers(){
 		return repo.findAll();
 	}
