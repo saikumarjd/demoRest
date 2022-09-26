@@ -2,9 +2,9 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.demo.springRestController</groupId>
-  <artifactId>demoRest</artifactId>
-  <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <artifactId>springrestimage</artifactId>
+  <packaging>jar</packaging>
+  <version>0.0.1</version>
   <name>demoRest Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
@@ -84,6 +84,6 @@
         </configuration>
     </plugin>
        </plugins>
-    <finalName>demoRest</finalName>
+    <finalName>springrestimage</finalName>
   </build>
 </project>
