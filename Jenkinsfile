@@ -18,7 +18,7 @@ pipeline{
        }
        stage("Scanning docker image"){
             steps{
-                bat 'docker scan --file Dockerfile demorest .'
+                bat 'docker scan demorest '
             }
        }
        stage("push docker image to hub"){
