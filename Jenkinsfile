@@ -16,6 +16,11 @@ pipeline{
                 bat 'docker build -t sai96266/demorest .'
             }
        }
+       stage("Scanning docker image"){
+            steps{
+                bat 'docker scan Dockerfile demorest .'
+            }
+       }
        stage("push docker image to hub"){
             steps{
                  bat 'docker login -u sai96266 -p Tsunami9@'
