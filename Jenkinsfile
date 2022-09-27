@@ -13,7 +13,7 @@ pipeline{
        stage("Build Docker Image"){
             steps{
 
-                bat 'docker build -t sai96266/demoRest .'
+                bat 'docker build -t sai96266/demorest .'
             }
        }
        stage("push docker image to hub"){
