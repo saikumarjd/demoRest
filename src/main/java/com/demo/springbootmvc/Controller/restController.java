@@ -49,7 +49,7 @@ public class restController {
 		 UpdatedUser.setId(UpdatedUser.getId());
 		 repo.save(UpdatedUser);
 		 repo.save(user);
-		return "updated";
+		 return "updated";
 	}
 	@DeleteMapping("/deleteuser/{id}")
 	public String DeleteUser(@PathVariable long id, DemoUser user) {
