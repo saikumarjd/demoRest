@@ -19,7 +19,7 @@ pipeline{
        stage("push docker image to hub"){
             steps{
                  bat 'docker login -u sai96266 -p Tsunami9@'
-                bat 'docker push sai96266/demoRest'
+                bat 'docker push sai96266/demorest'
             }
        }
     }
